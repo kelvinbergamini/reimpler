@@ -1,6 +1,21 @@
 import React,{useMemo,useState} from 'react';
-import {ArrowRight,CheckCircle2,Clock,Factory,Mail,MapPin,Menu,MessageCircle,Phone,Ruler,Send,ShieldCheck,Truck,Wrench,X} from 'lucide-react';
-
+import {
+  ArrowRight,
+  CheckCircle2,
+  Clock,
+  Factory,
+  Mail,
+  MapPin,
+  Menu,
+  MessageCircle,
+  Phone,
+  Ruler,
+  Send,
+  ShieldCheck,
+  Truck,
+  Wrench,
+  X,
+} from "lucide-react";
 const COMPANY={name:'REIMPLER',slogan:'Transportando o que move o seu dia a dia',city:'Limeira - SP',coverage:'Atendimento em todo o Brasil',address:'Rua Sem Denominação, s/n, Bairro Ferrão, Gleba A, Área B, CEP 13480-970, Limeira - SP',hours:'Segunda a sexta, das 08:00 às 17:00',whatsapp:'5519953222520',whatsappDisplay:'(19) 95322-2520',email:'reimpler@gmail.com',instagram:'@reimpler',instagramUrl:'https://www.instagram.com/reimpler/',formspreeEndpoint:'https://formspree.io/f/xeageylw'};
 const products=[
 {image:'/images/tanque-inox-20000.jpg',title:'Tanques em aço inox',tag:'Destaque REIMPLER',description:'Tanques cilíndricos e semirreboques em aço inox para água, alimentos, combustíveis e produtos químicos ou petroquímicos.',details:'Capacidade, dimensões, compartimentos, isolamento, serpentina e acessórios customizados para cada operação.'},
