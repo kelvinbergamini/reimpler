@@ -9,9 +9,9 @@ const inoxImages=[
 {src:'/images/inox-04.jpg',label:'Implemento rodoviário em aço inox'}
 ];
 const products=[
-{image:'/images/tanque-convencional.jpg',title:'Tanques convencionais',description:'Tanques autoportantes para combustíveis e derivados, em diferentes formatos e capacidades de 1.000 a 25.000 litros.',details:'Opção de compartimentos, bombeamento, TOP ou Bottom Loading e projetos para diferentes caminhões.'},
+{image:'/images/tanque-convencional.jpg',title:'Tanques convencionais',description:'Tanques autoportantes para combustíveis e derivados, em diferentes formatos e capacidades.',details:'Opção de compartimentos, bombeamento, TOP ou Bottom Loading e projetos para diferentes caminhões.'},
 {image:'/images/oleo-reciclavel.jpg',title:'Óleo reciclável',description:'Tanques em aço carbono ou inox para coleta e transporte de óleo reciclável, inclusive em veículos compactos.',details:'A partir de 500 litros, com bomba, tomada de força, medição, filtros e acessórios.'},
-{image:'/images/tanque-pipa.jpg',title:'Tanque pipa',description:'Soluções para água, terraplanagem, irrigação, lavagem e apoio no combate a incêndios.',details:'Até 25.000 litros, em aço carbono ou inox, com bombeamento e irrigação sob medida.'}
+{image:'/images/tanque-pipa.jpg',title:'Tanque pipa',description:'Soluções para água, terraplanagem, irrigação, lavagem e apoio no combate a incêndios.',details:'em aço carbono ou inox, com bombeamento e irrigação sob medida.'}
 ];
 const empty={nome:'',empresa:'',telefone:'',email:'',cidade:'',estado:'SP',produto:'Tanques em aço inox',capacidade:'',material:'',aplicacao:'',quantidade:'1',prazo:'',observacoes:''};
 export default function App(){
